@@ -6,7 +6,7 @@ import Home from "./components/Home";
 import HomeEnglish from "./pages/HomeEnglish";
 import HomeNerland from "./pages/HomeNerland";
 import HomeArabe from "./pages/HomeArabe";
-import Header from "./pages/Header";
+import Header from "./components/Header";
 import HeaderEnglish from "./components/HeaderEnglish";
 import HeaderNerland from "./components/HeaderNerland";
 import HeaderArabe from "./components/HeaderArabe";

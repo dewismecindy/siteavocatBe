@@ -8,7 +8,7 @@ import Icon4 from "../img/prison (1).png";
 import ImageActu1 from "../img/ImageActu1.jpeg";
 import ImageActu2 from "../img/ImageActu2.jpg";
 import ImageActu3 from "../img/ImageActu3.webp";
-import Header from "../pages/Header";
+import Header from "./Header";
 
 const Home = () => {
   const [imageLoaded, setImageLoaded] = useState(false);

@@ -46,13 +46,13 @@ const HeaderArabe = () => {
           <li>
             <div className="language-buttons">
               <a href="/" style={{ fontSize: "14px" }}>
-                FR/
+                FR
               </a>
               <a href="/HomeEnglish" style={{ fontSize: "14px" }}>
-                EN/
+                EN
               </a>
               <a href="/CabinetNerland" style={{ fontSize: "14px" }}>
-                NL/
+                NL
               </a>
               <a href="/CabinetArabe" style={{ fontSize: "14px" }}>
                 AR

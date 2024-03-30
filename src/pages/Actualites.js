@@ -5,7 +5,7 @@ import ImageThomas from "../img/Thomas.jpg";
 import ImageActu1 from "../img/ImageActu1.jpeg";
 import ImageActu2 from "../img/ImageActu2.jpg";
 import ImageActu3 from "../img/ImageActu3.webp";
-import Header from "./Header";
+import Header from "../components/Header";
 
 const Actualites = () => {
   const [imageLoaded, setImageLoaded] = useState(false);

@@ -11,7 +11,7 @@ import ImageActu3 from "../img/ImageActu3.webp";
 import ArrowUp from "../img/arrows.png"; // Exemple de logo flèche vers le haut
 import ArrowDown from "../img/down-arrow.png"; // Exemple de logo flèche vers le bas
 import "../App.css"; // Assurez-vous d'importer votre fichier CSS
-import Header from "./Header";
+import Header from "../components/Header";
 
 const Expertise = () => {
   const [imageLoaded, setImageLoaded] = useState(false);
