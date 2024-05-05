@@ -373,6 +373,7 @@ const Cabinet = () => {
         </div>
       </div>
       <div
+        id="contact-title"
         className="QuatriemePart"
         style={{
           backgroundColor: "#f4F5F7",

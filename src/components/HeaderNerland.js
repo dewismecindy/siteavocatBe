@@ -4,7 +4,7 @@ import "../App";
 import Logo from "../img/logoLiberis.mp4";
 // import MobileLogo from "../img/iconMenu.png";
 
-const Header = () => {
+const HeaderNerland = () => {
   const [showMenu, setShowMenu] = useState(false);
 
   const toggleMenu = () => {
@@ -23,7 +23,7 @@ const Header = () => {
         padding: "20px",
       }}
     >
-      <Link to="/" style={{ marginTop: "20px" }}>
+      <Link to="/HomeNerland" style={{ marginTop: "20px" }}>
         <div className="logo">
           <video width="160px" height="160px" autoPlay muted>
             <source src={Logo} type="video/mp4" />
@@ -41,7 +41,7 @@ const Header = () => {
         >
           <li>
             <a
-              href="/cabinet"
+              href="/CabinetNerland"
               style={{
                 fontSize: "14px",
                 textDecoration: "none",
@@ -52,12 +52,12 @@ const Header = () => {
               onMouseEnter={(e) => (e.target.style.color = "#007bff")} // Couleur de texte bleue au survol
               onMouseLeave={(e) => (e.target.style.color = "#555")} // Retour à la couleur de texte grise
             >
-              Le Cabinet
+              Het advocatenkantoor
             </a>
           </li>
           <li>
             <a
-              href="/expertise"
+              href="/ExpertiseNerland"
               style={{
                 fontSize: "14px",
                 textDecoration: "none",
@@ -68,12 +68,12 @@ const Header = () => {
               onMouseEnter={(e) => (e.target.style.color = "#007bff")} // Couleur de texte bleue au survol
               onMouseLeave={(e) => (e.target.style.color = "#555")} // Retour à la couleur de texte grise
             >
-              Notre Expertise
+              Onze deskundigheid
             </a>
           </li>
           <li>
             <a
-              href="/actualites"
+              href="/ActualitesNerland"
               style={{
                 fontSize: "14px",
                 textDecoration: "none",
@@ -84,12 +84,12 @@ const Header = () => {
               onMouseEnter={(e) => (e.target.style.color = "#007bff")} // Couleur de texte bleue au survol
               onMouseLeave={(e) => (e.target.style.color = "#555")} // Retour à la couleur de texte grise
             >
-              Nos Actualités
+              Onze nieuwsberichten
             </a>
           </li>
           <li>
             <a
-              href="/#contact-title"
+              href="/HomeNerland/#contact-title"
               style={{
                 fontSize: "14px",
                 textDecoration: "none",
@@ -100,7 +100,7 @@ const Header = () => {
               onMouseEnter={(e) => (e.target.style.color = "#007bff")} // Couleur de texte bleue au survol
               onMouseLeave={(e) => (e.target.style.color = "#555")} // Retour à la couleur de texte grise
             >
-              Nous Contacter
+              Neem contact met ons op
             </a>
           </li>
           <li>
@@ -205,4 +205,4 @@ const Header = () => {
   );
 };
 
-export default Header;
+export default HeaderNerland;

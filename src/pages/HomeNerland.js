@@ -8,7 +8,7 @@ import Icon4 from "../img/prison (1).png";
 import ImageActu1 from "../img/ImageActu1.jpeg";
 import ImageActu2 from "../img/ImageActu2.jpg";
 import ImageActu3 from "../img/ImageActu3.webp";
-import Header from "../components/Header";
+import HeaderNerland from "../components/HeaderNerland";
 
 const HomeNerland = () => {
   const [imageLoaded, setImageLoaded] = useState(false);
@@ -16,9 +16,10 @@ const HomeNerland = () => {
   const handleImageLoad = () => {
     setImageLoaded(true);
   };
+
   return (
     <div>
-      <Header />
+      <HeaderNerland />
       <hr
         style={{
           width: "100%",
@@ -54,7 +55,7 @@ const HomeNerland = () => {
               fontSize: "1vw",
             }}
           >
-            BARREAU DE TOURNAI
+            BALIE VAN DOORNIK
           </h3>
           <h1
             style={{
@@ -65,7 +66,7 @@ const HomeNerland = () => {
               fontSize: "4vw",
             }}
           >
-            Cabinet Avocats
+            Advocatenkantoor
             <br />
             Thomas Bocquet
           </h1>
@@ -80,9 +81,9 @@ const HomeNerland = () => {
               marginRight: "100px",
             }}
           >
-            Le cabinet est en mesure de déterminer avec précision si vous êtes
-            auteurs ou victimes d’un fait susceptible de revêtir une
-            qualification d’infraction pénale, pour tous types d’infractions
+            Het kantoor kan nauwkeurig bepalen of u dader of slachtoffer bent
+            van een feit dat mogelijk een strafbaar feit is, voor alle soorten
+            misdrijven.
           </p>
           <p style={{ margin: "10px 0" }}>
             <Link
@@ -97,7 +98,7 @@ const HomeNerland = () => {
                 display: "inline-block",
               }}
             >
-              Le Cabinet
+              Het Kantoor
             </Link>
           </p>
         </div>
@@ -121,7 +122,7 @@ const HomeNerland = () => {
             marginTop: "110px",
           }}
         >
-          DROIT PENAL
+          STRAFRECHT
         </h3>
         <h1
           style={{
@@ -133,7 +134,7 @@ const HomeNerland = () => {
             marginTop: "30px",
           }}
         >
-          Pluricompétences <br /> en matière pénale
+          Veelzijdigheid <br /> op strafrechtelijk gebied
         </h1>{" "}
         <hr style={{ width: "100%", borderTop: "1px solid black" }} />
         <div
@@ -181,8 +182,7 @@ const HomeNerland = () => {
                 fontSize: "16px",
               }}
             >
-              Procédure pénale <br /> et libertés <br />
-              fondamentales
+              Strafrechtelijke procedure <br /> en fundamentele vrijheden
             </p>
           </div>
           <div
@@ -220,9 +220,7 @@ const HomeNerland = () => {
                 fontSize: "16px",
               }}
             >
-              Crimes & délits
-              <br /> commis contre les <br />
-              personnes
+              Misdrijven gepleegd tegen <br /> personen
             </p>
           </div>
           <div
@@ -260,9 +258,7 @@ const HomeNerland = () => {
                 fontSize: "16px",
               }}
             >
-              Droit pénal des
-              <br /> affaires et droit <br />
-              pénal douanier
+              Strafrecht van zaken <br /> en douanestrafrecht
             </p>
           </div>
           <div
@@ -298,11 +294,7 @@ const HomeNerland = () => {
                 margin: "2px",
               }}
             >
-              Droit
-              <br /> pénitentiaire, de
-              <br /> l’exécution & de <br />
-              l’application des <br />
-              peines
+              Gevangenisrecht, uitvoering <br /> en toepassing van straffen
             </p>
           </div>
         </div>
@@ -326,7 +318,7 @@ const HomeNerland = () => {
             marginTop: "110px",
           }}
         >
-          DANS LES MEDIAS
+          IN DE MEDIA
         </h3>
         <h1
           style={{
@@ -338,7 +330,7 @@ const HomeNerland = () => {
             marginTop: "30px",
           }}
         >
-          Les derniers <br /> articles
+          De laatste <br /> artikelen
         </h1>
         <hr style={{ width: "100%", borderTop: "1px solid black" }} />
         <div
@@ -380,7 +372,7 @@ const HomeNerland = () => {
                 color: "#881106",
               }}
             >
-              Discours <br /> orateur de rentrée <br />
+              Toespraak <br /> openingsspreker <br />
             </p>
           </div>
           <div
@@ -418,9 +410,9 @@ const HomeNerland = () => {
                 color: "#881106",
               }}
             >
-              Avec le cabinet <br /> SLaw de Liège
+              Met het kantoor <br /> SLaw van Luik
               <br />
-              fondamentales
+              fundamentele
             </p>
           </div>
           <div
@@ -456,9 +448,8 @@ const HomeNerland = () => {
                 color: "#881106",
               }}
             >
-              Concours
-              <br /> "J'accuse" <br />
-              Bruxelles
+              Wedstrijd <br /> "Ik beschuldig" <br />
+              Brussel
             </p>
           </div>
         </div>
@@ -486,7 +477,7 @@ const HomeNerland = () => {
               textAlign: "center",
             }}
           >
-            Contactez <br /> le cabinet
+            Neem contact op <br /> met het kantoor
           </h1>
 
           <hr
@@ -507,13 +498,13 @@ const HomeNerland = () => {
               marginRight: "12%",
             }}
           >
-            Nous vous invitons à nous contacter en priorité par le biais du
-            formulaire ci-dessous, en nous laissant vos coordonnées. Un avocat
-            prendra ensuite contact avec vous dans les meilleurs délais en
-            fonction de la nature de votre demande. Nous accordons une grande
-            attention au respect du secret professionnel, de votre premier
-            contact avec le cabinet à la clôture du dossier. L’ensemble de nos
-            échanges seront maintenus totalement confidentiels.
+            We nodigen u uit om in de eerste plaats contact met ons op te nemen
+            via het onderstaande formulier, waarbij u uw contactgegevens
+            achterlaat. Een advocaat zal vervolgens zo snel mogelijk contact met
+            u opnemen, afhankelijk van de aard van uw verzoek. We besteden veel
+            aandacht aan de naleving van het beroepsgeheim, van uw eerste
+            contact met het kantoor tot de afsluiting van het dossier. Al onze
+            communicatie zal volledig vertrouwelijk blijven.
           </p>
           <hr
             style={{
@@ -536,7 +527,7 @@ const HomeNerland = () => {
                 alignItems: "flex-start",
               }}
             >
-              <label htmlFor="nom">Nom</label>
+              <label htmlFor="nom">Naam</label>
               <input type="text" id="nom" name="nom" required />
             </div>
             <div
@@ -547,7 +538,7 @@ const HomeNerland = () => {
                 alignItems: "flex-start",
               }}
             >
-              <label htmlFor="prenom">Prénom</label>
+              <label htmlFor="prenom">Voornaam</label>
               <input type="text" id="prenom" name="prenom" required />
             </div>
             <div
@@ -558,7 +549,7 @@ const HomeNerland = () => {
                 alignItems: "flex-start",
               }}
             >
-              <label htmlFor="telephone">Téléphone</label>
+              <label htmlFor="telephone">Telefoon</label>
               <input type="tel" id="telephone" name="telephone" required />
             </div>
             <div
@@ -569,7 +560,7 @@ const HomeNerland = () => {
                 alignItems: "flex-start",
               }}
             >
-              <label htmlFor="email">Email</label>
+              <label htmlFor="email">E-mail</label>
               <input type="email" id="email" name="email" required />
             </div>
             <div
@@ -580,7 +571,7 @@ const HomeNerland = () => {
                 alignItems: "flex-start",
               }}
             >
-              <label htmlFor="message">Message</label>
+              <label htmlFor="message">Bericht</label>
               <textarea
                 id="message"
                 name="message"
@@ -590,10 +581,10 @@ const HomeNerland = () => {
                 style={{ width: "300px" }}
               ></textarea>
               <p style={{ fontSize: "12px", color: "gray" }}>
-                Maximum 800 caractères
+                Maximaal 800 tekens
               </p>
             </div>
-            <button type="submit">Envoyer</button>
+            <button type="submit">Verzenden</button>
           </form>
 
           <hr
@@ -613,18 +604,18 @@ const HomeNerland = () => {
               textAlign: "center",
             }}
           >
-            <h2>Maître BOCQUET Thomas</h2>
+            <h2>Meester Thomas BOCQUET</h2>
             <p>
-              Rue Jondry 2/A,
+              Jondrystraat 2/A,
               <br />
-              4020 Liège, Belgium
+              4020 Luik, België
               <br />
-              Téléphone : + 32 4 32 50 02 02
+              Telefoon: +32 4 32 50 02 02
               <br />
-              Email : t.bocquet@avocat.be
+              E-mail: t.bocquet@advocaat.be
               <br />
-              Justifit :
-              https://www.justifit.be/avocats/avocat-liege-4020-thomas-bocquet-5244/
+              Justifit:
+              https://www.justifit.be/advocaten/advocaat-luik-4020-thomas-bocquet-5244/
             </p>
           </div>
         </div>

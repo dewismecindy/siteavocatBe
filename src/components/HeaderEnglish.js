@@ -23,7 +23,7 @@ const HeaderEnglish = () => {
         padding: "20px",
       }}
     >
-      <Link to="/" style={{ marginTop: "20px" }}>
+      <Link to="/HomeEnglish" style={{ marginTop: "20px" }}>
         <div className="logo">
           <video width="160px" height="160px" autoPlay muted>
             <source src={Logo} type="video/mp4" />
@@ -41,7 +41,7 @@ const HeaderEnglish = () => {
         >
           <li>
             <a
-              href="/cabinet"
+              href="/CabinetEnglish"
               style={{
                 fontSize: "14px",
                 textDecoration: "none",
@@ -52,12 +52,12 @@ const HeaderEnglish = () => {
               onMouseEnter={(e) => (e.target.style.color = "#007bff")} // Couleur de texte bleue au survol
               onMouseLeave={(e) => (e.target.style.color = "#555")} // Retour à la couleur de texte grise
             >
-              Le Cabinet
+              The law firm
             </a>
           </li>
           <li>
             <a
-              href="/expertise"
+              href="/ExpertiseEnglish"
               style={{
                 fontSize: "14px",
                 textDecoration: "none",
@@ -68,12 +68,12 @@ const HeaderEnglish = () => {
               onMouseEnter={(e) => (e.target.style.color = "#007bff")} // Couleur de texte bleue au survol
               onMouseLeave={(e) => (e.target.style.color = "#555")} // Retour à la couleur de texte grise
             >
-              Notre Expertise
+              Our expertise
             </a>
           </li>
           <li>
             <a
-              href="/actualites"
+              href="/ActualitesEnglish"
               style={{
                 fontSize: "14px",
                 textDecoration: "none",
@@ -84,12 +84,12 @@ const HeaderEnglish = () => {
               onMouseEnter={(e) => (e.target.style.color = "#007bff")} // Couleur de texte bleue au survol
               onMouseLeave={(e) => (e.target.style.color = "#555")} // Retour à la couleur de texte grise
             >
-              Nos Actualités
+              Our News
             </a>
           </li>
           <li>
             <a
-              href="/#contact-title"
+              href="/HomeEnglish"
               style={{
                 fontSize: "14px",
                 textDecoration: "none",
@@ -100,7 +100,7 @@ const HeaderEnglish = () => {
               onMouseEnter={(e) => (e.target.style.color = "#007bff")} // Couleur de texte bleue au survol
               onMouseLeave={(e) => (e.target.style.color = "#555")} // Retour à la couleur de texte grise
             >
-              Nous Contacter
+              Contact us
             </a>
           </li>
           <li>

@@ -8,7 +8,7 @@ import Icon4 from "../img/prison (1).png";
 import ImageActu1 from "../img/ImageActu1.jpeg";
 import ImageActu2 from "../img/ImageActu2.jpg";
 import ImageActu3 from "../img/ImageActu3.webp";
-import HeaderEnglish from "../components/HeaderEnglish";
+import HeaderArabe from "../components/HeaderArabe";
 
 const HomeArabe = () => {
   const [imageLoaded, setImageLoaded] = useState(false);
@@ -16,10 +16,9 @@ const HomeArabe = () => {
   const handleImageLoad = () => {
     setImageLoaded(true);
   };
-
   return (
     <div>
-      <HeaderEnglish />
+      <HeaderArabe />
       <hr
         style={{
           width: "100%",
@@ -55,7 +54,7 @@ const HomeArabe = () => {
               fontSize: "1vw",
             }}
           >
-            A modifier en arabe
+            النقابة في تورناي
           </h3>
           <h1
             style={{
@@ -66,7 +65,7 @@ const HomeArabe = () => {
               fontSize: "4vw",
             }}
           >
-            Law Office of
+            مكتب المحامين
             <br />
             Thomas Bocquet
           </h1>
@@ -81,13 +80,12 @@ const HomeArabe = () => {
               marginRight: "100px",
             }}
           >
-            The firm is able to accurately determine whether you are
-            perpetrators or victims of an act that may constitute a criminal
-            offense, for all types of offenses.
+            المكتب قادر على تحديد بدقة ما إذا كنت مرتكبًا أم ضحية لفعل قد يشكل
+            جريمة جنائية، لجميع أنواع الجرائم
           </p>
           <p style={{ margin: "10px 0" }}>
             <Link
-              to="/cabinetEnglish"
+              to="/CabinetArabe"
               style={{
                 textDecoration: "none",
                 backgroundColor: "#800020",
@@ -98,7 +96,7 @@ const HomeArabe = () => {
                 display: "inline-block",
               }}
             >
-              The Law Firm
+              المكتب
             </Link>
           </p>
         </div>
@@ -122,7 +120,7 @@ const HomeArabe = () => {
             marginTop: "110px",
           }}
         >
-          CRIMINAL LAW
+          القانون الجنائي
         </h3>
         <h1
           style={{
@@ -134,8 +132,7 @@ const HomeArabe = () => {
             marginTop: "30px",
           }}
         >
-          Multidisciplinary expertise <br />
-          in criminal matters
+          متعدد الاختصاصات في القانون الجنائي
         </h1>{" "}
         <hr style={{ width: "100%", borderTop: "1px solid black" }} />
         <div
@@ -154,7 +151,7 @@ const HomeArabe = () => {
               margin: "2px",
             }}
           >
-            <Link to="/ExpertiseEnglish">
+            <Link to="/ExpertiseArabe">
               <div
                 style={{
                   width: "150px",
@@ -183,8 +180,7 @@ const HomeArabe = () => {
                 fontSize: "16px",
               }}
             >
-              Criminal procedure <br /> and fundamental <br />
-              freedoms
+              إجراءات القانون الجنائي والحريات الأساسية
             </p>
           </div>
           <div
@@ -195,7 +191,7 @@ const HomeArabe = () => {
               margin: "2px",
             }}
           >
-            <Link to="/ExpertiseEnglish">
+            <Link to="/ExpertiseArabe">
               <div
                 style={{
                   width: "150px",
@@ -222,9 +218,7 @@ const HomeArabe = () => {
                 fontSize: "16px",
               }}
             >
-              Crimes & misdemeanors
-              <br /> committed against <br />
-              individuals
+              جرائم ومخالفات مرتكبة ضد الأشخاص
             </p>
           </div>
           <div
@@ -235,7 +229,7 @@ const HomeArabe = () => {
               margin: "2px",
             }}
           >
-            <Link to="/ExpertiseEnglish">
+            <Link to="/ExpertiseArabe">
               <div
                 style={{
                   width: "150px",
@@ -262,9 +256,7 @@ const HomeArabe = () => {
                 fontSize: "16px",
               }}
             >
-              Criminal law
-              <br /> of business and <br />
-              customs law
+              القانون الجنائي للشؤون التجارية والجمارك
             </p>
           </div>
           <div
@@ -272,7 +264,7 @@ const HomeArabe = () => {
               margin: "2px",
             }}
           >
-            <Link to="/ExpertiseEnglish">
+            <Link to="/ExpertiseArabe">
               <div
                 style={{
                   width: "150px",
@@ -300,10 +292,7 @@ const HomeArabe = () => {
                 margin: "2px",
               }}
             >
-              Prison law,
-              <br /> execution,
-              <br /> and application <br />
-              of sentences <br />
+              القانون السجني، وتنفيذ وتطبيق العقوبات
             </p>
           </div>
         </div>
@@ -327,7 +316,7 @@ const HomeArabe = () => {
             marginTop: "110px",
           }}
         >
-          IN THE MEDIA
+          في وسائل الإعلام
         </h3>
         <h1
           style={{
@@ -339,7 +328,7 @@ const HomeArabe = () => {
             marginTop: "30px",
           }}
         >
-          The latest articles
+          آخر المقالات
         </h1>
         <hr style={{ width: "100%", borderTop: "1px solid black" }} />
         <div
@@ -381,7 +370,7 @@ const HomeArabe = () => {
                 color: "#881106",
               }}
             >
-              Opening speech <br /> of the Bar Association of Liège <br />
+              خطاب المتحدث في الافتتاحية مع مكتب SLaw في لييج
             </p>
           </div>
           <div
@@ -419,7 +408,7 @@ const HomeArabe = () => {
                 color: "#881106",
               }}
             >
-              With the SLaw law <br /> firm in Liège
+              مسابقة "اتهم" في بروكسل
             </p>
           </div>
           <div
@@ -455,9 +444,7 @@ const HomeArabe = () => {
                 color: "#881106",
               }}
             >
-              Competition
-              <br /> "J'accuse" <br />
-              Brussels
+              تواصل مع المكتب سيتم الحفاظ على البيانات سرية تمامًا.
             </p>
           </div>
         </div>
@@ -485,8 +472,7 @@ const HomeArabe = () => {
               textAlign: "center",
             }}
           >
-            Contact
-            <br /> the law firm
+            اتصل بالمكتب
           </h1>
 
           <hr
@@ -507,12 +493,11 @@ const HomeArabe = () => {
               marginRight: "12%",
             }}
           >
-            We invite you to contact us primarily through the form below,
-            leaving us your contact details. A lawyer will then contact you as
-            soon as possible depending on the nature of your request. We pay
-            great attention to respecting professional secrecy, from your first
-            contact with the firm to the closing of the file. All our exchanges
-            will be kept completely confidential.
+            ندعوكم للتواصل معنا في المقام الأول من خلال النموذج أدناه، وترك
+            تفاصيل الاتصال الخاصة بكم.سيقوم محامٍ بالاتصال بكم في أقرب وقت ممكن
+            وفقًا لطبيعة استفساركم.نولي اهتمامًا كبيرًا لاحترام السرية المهنية،
+            من أول اتصال لكم بالمكتب إلى إغلاق الملف. سيتم الحفاظ على سرية جميع
+            تبادلاتنا بشكل تام.
           </p>
           <hr
             style={{
@@ -535,7 +520,7 @@ const HomeArabe = () => {
                 alignItems: "flex-start",
               }}
             >
-              <label htmlFor="nom">Last Name</label>
+              <label htmlFor="nom">الاسم</label>
               <input type="text" id="nom" name="nom" required />
             </div>
             <div
@@ -546,7 +531,7 @@ const HomeArabe = () => {
                 alignItems: "flex-start",
               }}
             >
-              <label htmlFor="prenom">First Name</label>
+              <label htmlFor="prenom">اللقب</label>
               <input type="text" id="prenom" name="prenom" required />
             </div>
             <div
@@ -557,7 +542,7 @@ const HomeArabe = () => {
                 alignItems: "flex-start",
               }}
             >
-              <label htmlFor="telephone">Phone</label>
+              <label htmlFor="telephone">الهاتف</label>
               <input type="tel" id="telephone" name="telephone" required />
             </div>
             <div
@@ -568,7 +553,7 @@ const HomeArabe = () => {
                 alignItems: "flex-start",
               }}
             >
-              <label htmlFor="email">Email</label>
+              <label htmlFor="email">البريد الإلكتروني</label>
               <input type="email" id="email" name="email" required />
             </div>
             <div
@@ -579,7 +564,7 @@ const HomeArabe = () => {
                 alignItems: "flex-start",
               }}
             >
-              <label htmlFor="message">Message</label>
+              <label htmlFor="message">الرسالة</label>
               <textarea
                 id="message"
                 name="message"
@@ -589,10 +574,10 @@ const HomeArabe = () => {
                 style={{ width: "300px" }}
               ></textarea>
               <p style={{ fontSize: "12px", color: "gray" }}>
-                Maximum 800 caractères
+                الحد الأقصى 800 حرف
               </p>
             </div>
-            <button type="submit">Envoyer</button>
+            <button type="submit">إرسال</button>
           </form>
 
           <hr
@@ -612,20 +597,18 @@ const HomeArabe = () => {
               textAlign: "center",
             }}
           >
-            <h2>Maître BOCQUET Thomas</h2>
+            <h2>المحامي توماس بوكيه</h2>
             <p>
               Rue Jondry 2/A,
               <br />
               4020 Liège, Belgium
               <br />
-              Phone : +32 4 32 50 02 02
+              Téléphone : + 32 4 32 50 02 02
               <br />
               Email : t.bocquet@avocat.be
               <br />
               Justifit :
-              <a href="https://www.justifit.be/avocats/avocat-liege-4020-thomas-bocquet-5244/">
-                https://www.justifit.be/avocats/avocat-liege-4020-thomas-bocquet-5244/
-              </a>
+              https://www.justifit.be/avocats/avocat-liege-4020-thomas-bocquet-5244/
             </p>
           </div>
         </div>

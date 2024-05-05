@@ -88,8 +88,8 @@ const Header = () => {
             </a>
           </li>
           <li>
-            <a
-              href="/#contact-title"
+            <Link
+              to="#contact-title"
               style={{
                 fontSize: "14px",
                 textDecoration: "none",
@@ -101,7 +101,7 @@ const Header = () => {
               onMouseLeave={(e) => (e.target.style.color = "#555")} // Retour à la couleur de texte grise
             >
               Nous Contacter
-            </a>
+            </Link>
           </li>
           <li>
             <div className="language-buttons">
@@ -148,7 +148,7 @@ const Header = () => {
                 EN
               </a>
               <a
-                href="/CabinetNerland"
+                href="/HomeNerland"
                 style={{
                   fontSize: "14px",
                   textDecoration: "none",
@@ -169,7 +169,7 @@ const Header = () => {
                 NL
               </a>
               <a
-                href="/CabinetArabe"
+                href="/HomeArabe"
                 style={{
                   fontSize: "14px",
                   textDecoration: "none",

@@ -5,9 +5,9 @@ import ImageThomas from "../img/Thomas.jpg";
 import ImageActu1 from "../img/ImageActu1.jpeg";
 import ImageActu2 from "../img/ImageActu2.jpg";
 import ImageActu3 from "../img/ImageActu3.webp";
-import HeaderEnglish from "../components/HeaderEnglish";
+import HeaderArabe from "../components/HeaderArabe";
 
-const CabinetEnglish = () => {
+const CabinetArabe = () => {
   const [imageLoaded, setImageLoaded] = useState(false);
 
   const handleImageLoad = () => {
@@ -15,7 +15,7 @@ const CabinetEnglish = () => {
   };
   return (
     <div>
-      <HeaderEnglish />
+      <HeaderArabe />
       <hr
         style={{
           width: "100%",
@@ -51,7 +51,7 @@ const CabinetEnglish = () => {
               fontSize: "1vw",
             }}
           >
-            THE FIRM
+            مكتب متخصص في القانون الجنائي
           </h3>
           <h1
             style={{
@@ -62,9 +62,7 @@ const CabinetEnglish = () => {
               fontSize: "4vw",
             }}
           >
-            A Law Firm <br />
-            dedicated
-            <br /> to criminal law
+            مكتب قانوني مختص بالقانون الجنائي
           </h1>
           <p
             style={{
@@ -77,17 +75,16 @@ const CabinetEnglish = () => {
               marginRight: "20%",
             }}
           >
-            Your lawyers defend and assist you from the moment suspicions of an
-            offense committed by or against you arise. Personalized assistance
-            is guaranteed at all stages of the procedure, particularly during
-            proceedings before the courts (Police Court, Juvenile Court,
-            Criminal Court, Assize Court). Your lawyers also defend you if you
-            are a victim of an offense, aiming to obtain fair and complete
-            compensation for your damages.
+            محاموكم يدافعون عنكم ويقدمون لكم المساعدة منذ لحظة الاشتباه في
+            ارتكاب جريمة من قبلكم أو ضدكم. يتم ضمان المساعدة الشخصية في جميع
+            مراحل الإجراءات، خاصة خلال الإجراءات أمام المحاكم (محكمة الشرطة،
+            محكمة الأحداث، محكمة الجنايات، المحكمة الجنائية). كما يدافع محاموكم
+            عنكم إذا كنتم ضحايا لجريمة، بهدف الحصول على تعويض عادل وكامل
+            لأضراركم.
           </p>
           <p style={{ margin: "10px 0" }}>
             <Link
-              to="/CabinetEnglish"
+              to="/CabinetArabe"
               style={{
                 textDecoration: "none",
                 backgroundColor: "#800020",
@@ -98,7 +95,7 @@ const CabinetEnglish = () => {
                 display: "inline-block",
               }}
             >
-              Learn more
+              تعرف أكثر
             </Link>
           </p>
         </div>
@@ -137,7 +134,7 @@ const CabinetEnglish = () => {
             marginTop: "10%",
           }}
         >
-          Me Thomas Bocquet <br />
+          ماست Thomas Bocquet <br />
         </h1>{" "}
         <h3
           style={{
@@ -149,7 +146,7 @@ const CabinetEnglish = () => {
             marginTop: "2%",
           }}
         >
-          Lawyer at the Bar Association of Liège
+          محامٍ في نقابة محامين لييج
         </h3>
         <div
           style={{
@@ -168,17 +165,13 @@ const CabinetEnglish = () => {
               }}
             >
               <p style={{ textAlign: "justify" }}>
-                Founder of the firm, Maître Thomas Bocquet is a lawyer at the
-                Lyon Bar Association. Holding a Master's degree in Criminal Law
-                from the University of Aix-en-Provence and a Master's degree in
-                Criminal Sciences from the University of Paris X, Maître Thomas
-                Bocquet has always been focused on the practice of Criminal Law.
+                مؤسس المكتب، المحامي توماس بوكيه هو محامٍ في نقابة محامين ليون.
+                حاصل على درجة الماجستير في القانون الجنائي من جامعة إيكس أون
+                بروفانس ودرجة الماجستير في العلوم الجنائية من جامعة باريس
+                العاشرة، وكان مايتر توماس بوكيه دائمًا متخصصًا في ممارسة القانون
+                الجنائي.
               </p>
-              <p style={{ textAlign: "justify" }}>
-                Throughout his career, he joined the Gueguen-Carrol Law Firm in
-                Paris before joining a Lyon-based law firm specializing in
-                criminal procedure in 2012.
-              </p>
+              <p style={{ textAlign: "justify" }}></p>
             </div>
             {/* Colonne de texte à gauche */}
             <div
@@ -189,16 +182,15 @@ const CabinetEnglish = () => {
               }}
             >
               <p style={{ textAlign: "justify" }}>
-                A former lecturer at the University of Lyon II and co-chair of
-                the Criminal Commission of the School of Lawyers, Maître Thomas
-                Bocquet also has diverse training experience within the
-                Interregional Directorate of Penitentiary Services in Lyon
-                (DISP), the Lyon-Corbas Detention Center, and the Interregional
-                Specialized Jurisdiction (JIRS) of the Lyon Criminal Court.
+                كان مايتر توماس بوكيه محاضرًا سابقًا في جامعة ليون الثانية ونائب
+                رئيس لجنة الجنائيين في مدرسة المحامين. كما لديه خبرة تدريبية
+                متنوعة ضمن المديرية الإقليمية البينية للخدمات السجنية في ليون
+                (DISP)، ومركز الاحتجاز في ليون-كوربا، والقضاء الجنائي البيني
+                الخاص (JIRS) في محكمة ليون الجنائية.
               </p>
               <p style={{ textAlign: "justify" }}>
-                These experiences have led him to gain insights into both
-                sentencing and the execution of sentences for convicts.
+                هذه التجارب قادته إلى اكتساب رؤى في كل من الحكم وتنفيذ الأحكام
+                للمدانين.
               </p>
             </div>
           </div>
@@ -223,7 +215,7 @@ const CabinetEnglish = () => {
             marginTop: "110px",
           }}
         >
-          IN MEDIAS
+          في وسائل الإعلام.
         </h3>
         <h1
           style={{
@@ -236,7 +228,7 @@ const CabinetEnglish = () => {
             marginBottom: "4%",
           }}
         >
-          The latest <br /> articles
+          أحدث المقالات
         </h1>
         <hr style={{ width: "100%", borderTop: "1px solid black" }} />
         <div
@@ -278,7 +270,7 @@ const CabinetEnglish = () => {
                 color: "#881106",
               }}
             >
-              Opening <br /> speech speaker <br />
+              مُتحدث الخطاب الافتتاحي
             </p>
           </div>
           <div
@@ -316,9 +308,7 @@ const CabinetEnglish = () => {
                 color: "#881106",
               }}
             >
-              With the SLaw <br /> law firm in
-              <br />
-              Liège fundamentals.
+              مع مكتب المحاماة SLaw في أسس لييج.
             </p>
           </div>
           <div
@@ -354,9 +344,7 @@ const CabinetEnglish = () => {
                 color: "#881106",
               }}
             >
-              Competition
-              <br /> "J'accuse" <br />
-              Brussels
+              مسابقة "أتهم" بروكسل.
             </p>
           </div>
 
@@ -392,8 +380,7 @@ const CabinetEnglish = () => {
             textAlign: "center",
           }}
         >
-          Contact
-          <br /> the law firm
+          اتصل بمكتب المحاماة
         </h1>
 
         <hr
@@ -414,12 +401,11 @@ const CabinetEnglish = () => {
             marginRight: "12%",
           }}
         >
-          We invite you to contact us primarily through the form below, leaving
-          us your contact details. A lawyer will then contact you as soon as
-          possible depending on the nature of your request. We pay great
-          attention to respecting professional secrecy, from your first contact
-          with the firm to the closing of the file. All our exchanges will be
-          kept completely confidential.
+          ندعوكم للتواصل معنا في المقام الأول من خلال النموذج أدناه، متركين لنا
+          تفاصيل الاتصال الخاصة بكم. سيقوم أحد المحامين بالاتصال بكم في أقرب وقت
+          ممكن حسب طبيعة طلبكم. نولي اهتمامًا كبيرًا لاحترام السرية المهنية، من
+          أول اتصال لكم مع المكتب حتى إغلاق الملف. ستظل جميع تبادلاتنا سرية
+          تمامًا.
         </p>
         <hr
           style={{
@@ -442,7 +428,7 @@ const CabinetEnglish = () => {
               alignItems: "flex-start",
             }}
           >
-            <label htmlFor="nom">Last Name</label>
+            <label htmlFor="nom">الاسم الأخير</label>
             <input type="text" id="nom" name="nom" required />
           </div>
           <div
@@ -453,7 +439,7 @@ const CabinetEnglish = () => {
               alignItems: "flex-start",
             }}
           >
-            <label htmlFor="prenom">First Name</label>
+            <label htmlFor="prenom">الاسم الأول </label>
             <input type="text" id="prenom" name="prenom" required />
           </div>
           <div
@@ -464,7 +450,7 @@ const CabinetEnglish = () => {
               alignItems: "flex-start",
             }}
           >
-            <label htmlFor="telephone">Phone</label>
+            <label htmlFor="telephone">الهاتف</label>
             <input type="tel" id="telephone" name="telephone" required />
           </div>
           <div
@@ -475,7 +461,7 @@ const CabinetEnglish = () => {
               alignItems: "flex-start",
             }}
           >
-            <label htmlFor="email">Email</label>
+            <label htmlFor="email">البريد الإلكتروني</label>
             <input type="email" id="email" name="email" required />
           </div>
           <div
@@ -486,7 +472,7 @@ const CabinetEnglish = () => {
               alignItems: "flex-start",
             }}
           >
-            <label htmlFor="message">Message</label>
+            <label htmlFor="message">الرسالة</label>
             <textarea
               id="message"
               name="message"
@@ -496,10 +482,10 @@ const CabinetEnglish = () => {
               style={{ width: "300px" }}
             ></textarea>
             <p style={{ fontSize: "12px", color: "gray" }}>
-              Maximum 800 caractères
+              الحد الأقصى 800 حرف
             </p>
           </div>
-          <button type="submit">Envoyer</button>
+          <button type="submit">إرسال</button>
         </form>
 
         <hr
@@ -548,4 +534,4 @@ const CabinetEnglish = () => {
   );
 };
 
-export default CabinetEnglish;
+export default CabinetArabe;
