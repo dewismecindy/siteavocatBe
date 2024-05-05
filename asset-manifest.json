@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/siteavocatbe/static/css/main.72bfc6c1.css",
+    "main.js": "/siteavocatbe/static/js/main.3e76038c.js",
+    "static/media/balanceJustice.png": "/siteavocatbe/static/media/balanceJustice.943b140b5eaf619b9a36.png",
+    "static/media/palais1.png": "/siteavocatbe/static/media/palais1.5a459c14e64466dce5fe.png",
+    "static/media/AvocatAccueil.png": "/siteavocatbe/static/media/AvocatAccueil.9d9afbfb365520d4d437.png",
+    "static/media/logoLiberis.mp4": "/siteavocatbe/static/media/logoLiberis.fd9a2b1a61129a1a30ad.mp4",
+    "static/media/ImageActu2.jpg": "/siteavocatbe/static/media/ImageActu2.177a99f89f88b23f54b5.jpg",
+    "static/media/Thomas.jpg": "/siteavocatbe/static/media/Thomas.177a99f89f88b23f54b5.jpg",
+    "static/media/ImageActu3.webp": "/siteavocatbe/static/media/ImageActu3.901e8ef0655c36aa917f.webp",
+    "static/media/ImageActu1.jpeg": "/siteavocatbe/static/media/ImageActu1.53a7f038056d361d2013.jpeg",
+    "static/media/hammer.png": "/siteavocatbe/static/media/hammer.649c354f239425b0670c.png",
+    "static/media/document.png": "/siteavocatbe/static/media/document.257a2479fe653a4a1726.png",
+    "static/media/law.png": "/siteavocatbe/static/media/law.b23d3bcdba8bd31c825f.png",
+    "static/media/prison (1).png": "/siteavocatbe/static/media/prison (1).4cb4965affcc9606ba0a.png",
+    "static/media/down-arrow.png": "/siteavocatbe/static/media/down-arrow.4d59d4d7dfd9586a2191.png",
+    "index.html": "/siteavocatbe/index.html",
+    "main.72bfc6c1.css.map": "/siteavocatbe/static/css/main.72bfc6c1.css.map",
+    "main.3e76038c.js.map": "/siteavocatbe/static/js/main.3e76038c.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.72bfc6c1.css",
+    "static/js/main.3e76038c.js"
+  ]
+}
