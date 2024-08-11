@@ -89,7 +89,7 @@ const HeaderArabe = () => {
           </li>
           <li>
             <a
-              href="/HomeArabe"
+              href="/ContactArabe"
               style={{
                 fontSize: "14px",
                 textDecoration: "none",
@@ -103,7 +103,6 @@ const HeaderArabe = () => {
               اتصل بنا
             </a>
           </li>
-
           <li>
             <div className="language-buttons">
               <a
@@ -124,6 +123,7 @@ const HeaderArabe = () => {
                 onMouseLeave={(e) =>
                   (e.target.style.backgroundColor = "transparent")
                 } // Retour à la couleur de fond transparente
+                translate="no"
               >
                 FR
               </a>
@@ -145,6 +145,7 @@ const HeaderArabe = () => {
                 onMouseLeave={(e) =>
                   (e.target.style.backgroundColor = "transparent")
                 } // Retour à la couleur de fond transparente
+                translate="no"
               >
                 EN
               </a>
@@ -166,6 +167,7 @@ const HeaderArabe = () => {
                 onMouseLeave={(e) =>
                   (e.target.style.backgroundColor = "transparent")
                 } // Retour à la couleur de fond transparente
+                translate="no"
               >
                 NL
               </a>
@@ -186,6 +188,7 @@ const HeaderArabe = () => {
                 onMouseLeave={(e) =>
                   (e.target.style.backgroundColor = "transparent")
                 } // Retour à la couleur de fond transparente
+                translate="no"
               >
                 AR
               </a>
@@ -198,10 +201,10 @@ const HeaderArabe = () => {
       </div>
 
       {/* <div className="mobile-logo">
-      <a href="/menu">
-        <img src={MobileLogo} alt="Flaticon Logo" />
-      </a>
-    </div> */}
+        <a href="/menu">
+          <img src={MobileLogo} alt="Flaticon Logo" />
+        </a>
+      </div> */}
     </header>
   );
 };

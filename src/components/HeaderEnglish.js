@@ -45,12 +45,12 @@ const HeaderEnglish = () => {
               style={{
                 fontSize: "14px",
                 textDecoration: "none",
-                color: "#555", // Couleur de texte grise
+                color: "#555",
                 marginRight: "20px",
-                transition: "color 0.3s ease", // Transition de couleur de texte
+                transition: "color 0.3s ease",
               }}
-              onMouseEnter={(e) => (e.target.style.color = "#007bff")} // Couleur de texte bleue au survol
-              onMouseLeave={(e) => (e.target.style.color = "#555")} // Retour à la couleur de texte grise
+              onMouseEnter={(e) => (e.target.style.color = "#007bff")}
+              onMouseLeave={(e) => (e.target.style.color = "#555")}
             >
               The law firm
             </a>
@@ -61,12 +61,12 @@ const HeaderEnglish = () => {
               style={{
                 fontSize: "14px",
                 textDecoration: "none",
-                color: "#555", // Couleur de texte grise
+                color: "#555",
                 marginRight: "20px",
-                transition: "color 0.3s ease", // Transition de couleur de texte
+                transition: "color 0.3s ease",
               }}
-              onMouseEnter={(e) => (e.target.style.color = "#007bff")} // Couleur de texte bleue au survol
-              onMouseLeave={(e) => (e.target.style.color = "#555")} // Retour à la couleur de texte grise
+              onMouseEnter={(e) => (e.target.style.color = "#007bff")}
+              onMouseLeave={(e) => (e.target.style.color = "#555")}
             >
               Our expertise
             </a>
@@ -77,28 +77,28 @@ const HeaderEnglish = () => {
               style={{
                 fontSize: "14px",
                 textDecoration: "none",
-                color: "#555", // Couleur de texte grise
+                color: "#555",
                 marginRight: "20px",
-                transition: "color 0.3s ease", // Transition de couleur de texte
+                transition: "color 0.3s ease",
               }}
-              onMouseEnter={(e) => (e.target.style.color = "#007bff")} // Couleur de texte bleue au survol
-              onMouseLeave={(e) => (e.target.style.color = "#555")} // Retour à la couleur de texte grise
+              onMouseEnter={(e) => (e.target.style.color = "#007bff")}
+              onMouseLeave={(e) => (e.target.style.color = "#555")}
             >
               Our News
             </a>
           </li>
           <li>
             <a
-              href="/HomeEnglish"
+              href="/ContactEnglish"
               style={{
                 fontSize: "14px",
                 textDecoration: "none",
-                color: "#555", // Couleur de texte grise
+                color: "#555",
                 marginRight: "20px",
-                transition: "color 0.3s ease", // Transition de couleur de texte
+                transition: "color 0.3s ease",
               }}
-              onMouseEnter={(e) => (e.target.style.color = "#007bff")} // Couleur de texte bleue au survol
-              onMouseLeave={(e) => (e.target.style.color = "#555")} // Retour à la couleur de texte grise
+              onMouseEnter={(e) => (e.target.style.color = "#007bff")}
+              onMouseLeave={(e) => (e.target.style.color = "#555")}
             >
               Contact us
             </a>
@@ -119,10 +119,11 @@ const HeaderEnglish = () => {
                 }}
                 onMouseEnter={(e) =>
                   (e.target.style.backgroundColor = "#f0f0f0")
-                } // Couleur de fond gris clair au survol
+                }
                 onMouseLeave={(e) =>
                   (e.target.style.backgroundColor = "transparent")
-                } // Retour à la couleur de fond transparente
+                }
+                translate="no"
               >
                 FR
               </a>
@@ -140,10 +141,11 @@ const HeaderEnglish = () => {
                 }}
                 onMouseEnter={(e) =>
                   (e.target.style.backgroundColor = "#f0f0f0")
-                } // Couleur de fond gris clair au survol
+                }
                 onMouseLeave={(e) =>
                   (e.target.style.backgroundColor = "transparent")
-                } // Retour à la couleur de fond transparente
+                }
+                translate="no"
               >
                 EN
               </a>
@@ -161,10 +163,11 @@ const HeaderEnglish = () => {
                 }}
                 onMouseEnter={(e) =>
                   (e.target.style.backgroundColor = "#f0f0f0")
-                } // Couleur de fond gris clair au survol
+                }
                 onMouseLeave={(e) =>
                   (e.target.style.backgroundColor = "transparent")
-                } // Retour à la couleur de fond transparente
+                }
+                translate="no"
               >
                 NL
               </a>
@@ -181,10 +184,11 @@ const HeaderEnglish = () => {
                 }}
                 onMouseEnter={(e) =>
                   (e.target.style.backgroundColor = "#f0f0f0")
-                } // Couleur de fond gris clair au survol
+                }
                 onMouseLeave={(e) =>
                   (e.target.style.backgroundColor = "transparent")
-                } // Retour à la couleur de fond transparente
+                }
+                translate="no"
               >
                 AR
               </a>
@@ -197,10 +201,10 @@ const HeaderEnglish = () => {
       </div>
 
       {/* <div className="mobile-logo">
-      <a href="/menu">
-        <img src={MobileLogo} alt="Flaticon Logo" />
-      </a>
-    </div> */}
+        <a href="/menu">
+          <img src={MobileLogo} alt="Flaticon Logo" />
+        </a>
+      </div> */}
     </header>
   );
 };

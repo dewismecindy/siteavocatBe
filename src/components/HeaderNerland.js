@@ -197,10 +197,10 @@ const HeaderNerland = () => {
       </div>
 
       {/* <div className="mobile-logo">
-      <a href="/menu">
-        <img src={MobileLogo} alt="Flaticon Logo" />
-      </a>
-    </div> */}
+        <a href="/menu">
+          <img src={MobileLogo} alt="Flaticon Logo" />
+        </a>
+      </div> */}
     </header>
   );
 };
