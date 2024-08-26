@@ -192,20 +192,8 @@ const ActualitesNerland = () => {
                 fontSize: "14px",
               }}
             >
-              <p style={{ textAlign: "justify" }}>
-                Voormalig docent aan de Universiteit Lyon II en medevoorzitter
-                van de Strafrechtelijke Commissie van de Ecole des Avocats,
-                heeft Meester Maxence Pascal ook een gevarieerde opleiding
-                genoten bij de Direction Interrégionale des Services
-                Pénitentiaires de Lyon (DISP), de Gevangenis van Lyon-Corbas en
-                de Juridiction Interrégionale Spécialisée (JIRS) van de
-                Correctionele Rechtbank van Lyon.
-              </p>
-              <p style={{ textAlign: "justify" }}>
-                Deze recente ervaringen hebben hem inzicht gegeven in het proces
-                van veroordeling en de uitvoering van straffen voor
-                veroordeelden.
-              </p>
+              <p style={{ textAlign: "justify" }}></p>
+              <p style={{ textAlign: "justify" }}></p>
             </div>
           </div>
         </div>

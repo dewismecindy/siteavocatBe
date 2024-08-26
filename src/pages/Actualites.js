@@ -189,15 +189,7 @@ const Actualites = () => {
                 fontSize: "14px",
               }}
             >
-              <p style={{ textAlign: "justify" }}>
-                Ancien chargé d’enseignement à l’Université Lyon II et
-                co-président de la Commission Pénale de l’École des Avocats,
-                Maître Maxence Pascal justifie aussi d’une formation variée au
-                sein de la Direction Interrégionale des Services Pénitentiaires
-                de Lyon (DISP), de la Maison d’arrêt de Lyon-Corbas et de la
-                Juridiction Interrégionale Spécialisée (JIRS) du Tribunal
-                Correctionnel de Lyon.
-              </p>
+              <p style={{ textAlign: "justify" }}></p>
               <p style={{ textAlign: "justify" }}>
                 Ces dernières expériences l’ont amené à s’ouvrir sur le jugement
                 puis sur le parcours d’exécution des peines des condamnés.
