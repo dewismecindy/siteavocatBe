@@ -167,18 +167,8 @@ const CabinetEnglish = () => {
                 fontSize: "14px",
               }}
             >
-              <p style={{ textAlign: "justify" }}>
-                Founder of the firm, Maître Thomas Bocquet is a lawyer at the
-                Lyon Bar Association. Holding a Master's degree in Criminal Law
-                from the University of Aix-en-Provence and a Master's degree in
-                Criminal Sciences from the University of Paris X, Maître Thomas
-                Bocquet has always been focused on the practice of Criminal Law.
-              </p>
-              <p style={{ textAlign: "justify" }}>
-                Throughout his career, he joined the Gueguen-Carrol Law Firm in
-                Paris before joining a Lyon-based law firm specializing in
-                criminal procedure in 2012.
-              </p>
+              <p style={{ textAlign: "justify" }}></p>
+              <p style={{ textAlign: "justify" }}></p>
             </div>
             {/* Colonne de texte à gauche */}
             <div

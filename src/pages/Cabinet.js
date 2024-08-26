@@ -168,17 +168,6 @@ const Cabinet = () => {
                 fontSize: "14px",
               }}
             >
-              <p style={{ textAlign: "justify" }}></p>
-              <p style={{ textAlign: "justify" }}></p>
-            </div>
-            {/* Colonne de texte à gauche */}
-            <div
-              style={{
-                width: "45%",
-                fontFamily: "Montserrat",
-                fontSize: "14px",
-              }}
-            >
               <p style={{ textAlign: "justify" }}>
                 Fondateur du cabinet, Maître Thomas Bocquet est avocat au
                 barreau de Liège. Diplômé d’une Maîtrise en Droit Pénal de la
@@ -192,6 +181,14 @@ const Cabinet = () => {
                 conseil de l'ordre du barreau de Liège.
               </p>
             </div>
+            {/* Colonne de texte à gauche */}
+            <div
+              style={{
+                width: "45%",
+                fontFamily: "Montserrat",
+                fontSize: "14px",
+              }}
+            ></div>
           </div>
         </div>
       </div>
