@@ -179,7 +179,11 @@ const Cabinet = () => {
                 fontSize: "14px",
               }}
             >
-              <p style={{ textAlign: "justify" }}></p>
+              <p style={{ textAlign: "justify" }}>
+                Durant son parcours, il a intégré le Cabinet Slaw à Liège avant
+                de rejoindre, en 2018, le jeune barreau de Liège et en 2021 le
+                conseil de l'ordre du barreau de Liège.
+              </p>
               <p style={{ textAlign: "justify" }}>
                 Ces dernières expériences l’ont amené à s’ouvrir sur le jugement
                 puis sur le parcours d’exécution des peines des condamnés.

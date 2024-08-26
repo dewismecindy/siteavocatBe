@@ -103,7 +103,6 @@ const Home = () => {
           </p>
         </div>
       </div>
-
       <div
         className="SecondPart"
         style={{
@@ -308,7 +307,6 @@ const Home = () => {
           </div>
         </div>
       </div>
-
       <div
         className="TroisiemePart"
         style={{
@@ -464,8 +462,14 @@ const Home = () => {
           </div>
         </div>
       </div>
-
       <DeuxCabinets />
+      Fondateur du cabinet, Maître Thomas Bocquet est avocat au barreau de
+      Liège. Diplômé d’une Maîtrise en Droit Pénal de la faculté Bruxelle et
+      d’un Master de Sciences Criminelles de l’Université de Lille, Maître
+      Thomas Bocquet s’est toujours orienté vers la pratique du Droit Pénal.
+      Durant son parcours, il a intégré le Cabinet Slaw à Liège avant de
+      rejoindre, en 2018, le jeune barreau de Liège et en 2021 le conseil de
+      l'ordre du barreau de Liège.
     </div>
   );
 };
